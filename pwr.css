@@ -1,0 +1,61 @@
+body {
+  width: 100%;
+  margin: 0 0 24px 0;
+  padding: 0;
+  font-size: 12px;
+  font-family: Helvetica, Verdana, Tahoma, Arial, sans-serif;
+}
+
+#logo{
+  background: url(./static/poziom-pl.gif) no-repeat top center;
+  height: 110px;
+  margin: 40px;
+}
+
+h1{
+  text-align: center;
+  letter-spacing:1px;
+  font-size:28pt;
+}
+
+h2{
+  text-align: center;
+  letter-spacing:1px;
+  font-size:22pt;
+}
+
+p {
+  font-size:18px;
+}
+
+#main{
+  width: 800px;
+  margin: auto;
+  text-align: left;
+}
+
+.box{
+  border-style: dotted;
+  border-width: 1px;
+  border-color:#c0c0c0;
+  padding:25px;
+}
+
+.grid3x3 {
+  display: grid;
+  grid-template-rows: 250px 250px 250px;
+  grid-template-columns: 250px 250px 250px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+.box {
+  background: #444;
+  border: 1px solid #555;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #AAA;
+}
