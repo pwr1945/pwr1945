@@ -41,6 +41,12 @@ p {
   padding:25px;
 }
 
+.grid3x1 {
+  display: grid;
+  grid-template-rows: 250px;
+  grid-template-columns: 250px 250px 250px;
+}
+
 .grid3x3 {
   display: grid;
   grid-template-rows: 250px 250px 250px;
