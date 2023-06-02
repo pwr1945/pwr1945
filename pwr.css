@@ -57,6 +57,7 @@ body {
   display: flex;
   justify-content: center;
 }
+
 .box {
   background: #444;
   border: 1px solid #555;
@@ -64,4 +65,9 @@ body {
   align-items: center;
   justify-content: center;
   color: #AAA;
+  text-align: center;
+}
+
+.grid3x3 .box {
+  cursor: wait;
 }
